@@ -1,13 +1,6 @@
 @startuml
-
-'!include https://raw.githubusercontent.com/patrik-csak/one-dark-plantuml-theme/v1.0.1/theme.puml
-'skinparam backgroundcolor transparent
-skinparam FontColor #black:white
-skinparam backgroundColor #lightgray:darkslategray
-skinparam handwritten false
-
-
-hide empty description
+!theme crt-amber
+skinparam backgroundColor transparent
 
 [*] -up-> JIANGSU_UNIVERSITY                                #green
 JIANGSU_UNIVERSITY         -up-> TONGJI_UNIVERSITY          #green
@@ -45,8 +38,8 @@ right header
 **DC**
 endheader
 legend bottom left
-| <color:green>→</color> | university |
 | <color:blue>→</color> | company |
+| <color:green>→</color> | university |
 endlegend
-right footer DC
+right footer John
 @enduml

@@ -53,51 +53,8 @@ bachelor                                          : done , milestone , level   ,
 JIANGSU UNIVERSITY                                : crit , done      , stage   , 2005-09 , 1400d
 excellent at math, Basic knowledge of engineering : done , get skill , 2005-09 , 1400d
 ```
-@startuml
-!theme crt-amber
-skinparam backgroundColor transparent
 
-[*] -up-> JIANGSU_UNIVERSITY                                #green
-JIANGSU_UNIVERSITY         -up-> TONGJI_UNIVERSITY          #green
-TONGJI_UNIVERSITY          -up-> SAIC_Volkswagen_company    #blue
-SAIC_Volkswagen_company    -up-> ANJINAVI_company           #blue
-ANJINAVI_company           -up-> Phoenix_Automotive_company #blue
-Phoenix_Automotive_company -up-> By_bit_company             #blue
-By_bit_company             -up-> [*]
-
-JIANGSU_UNIVERSITY         : Bachelor
-JIANGSU_UNIVERSITY         : School of Automotive and Transportation Engineering
-JIANGSU_UNIVERSITY         : **Excellent in mathematics**, basic courses of engineering
-
-TONGJI_UNIVERSITY          : master
-TONGJI_UNIVERSITY          : Automotive College
-TONGJI_UNIVERSITY          : **Excellence in mathematical**, computer control basics, Automobile testing, modern control theory, system identification, fuzzy control
-
-SAIC_Volkswagen_company    : engineer
-SAIC_Volkswagen_company    : Instrument Driving Assistance, Reporting to: Technical Director
-SAIC_Volkswagen_company    : Responsible for building the Volkswagen MQB platform instrument test system and HUD test system, and developing test cases.  
-
-ANJINAVI_company           : senior test develop engineer
-ANJINAVI_company           : research and development department, Reporting to: Technical Director
-ANJINAVI_company           : Responsible for building a navigation test system and test navigation map.  
-
-Phoenix_Automotive_company : senior test develop engineer
-Phoenix_Automotive_company : research and development department, Reporting to: Technical Director
-Phoenix_Automotive_company : building test frameworks, develop android testing APP
-
-By_bit_company             : senior test develop engineer
-By_bit_company             : big data department, Reporting to: department Director
-By_bit_company             : base on chat GPT to develop a crypto finance analyst chat tool, developing off-line data analyse system(base on spark) Automotive Testing system.
-
-right header
-**DC**
-endheader
-legend bottom left
-| <color:blue>→</color> | company |
-| <color:green>→</color> | university |
-endlegend
-right footer John
-@enduml
+![experience_stage](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/DC-Melo/README/master/docs/uml/experience_stage.puml)
 
 ## ![skill](https://img.shields.io/badge/skill-java&rust-blue.svg) Main skills ##
 
