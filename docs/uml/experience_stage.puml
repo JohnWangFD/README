@@ -1,0 +1,52 @@
+@startuml
+
+'!include https://raw.githubusercontent.com/patrik-csak/one-dark-plantuml-theme/v1.0.1/theme.puml
+'skinparam backgroundcolor transparent
+skinparam FontColor #black:white
+skinparam backgroundColor #lightgray:darkslategray
+skinparam handwritten false
+
+
+hide empty description
+
+[*] -up-> JIANGSU_UNIVERSITY                                #green
+JIANGSU_UNIVERSITY         -up-> TONGJI_UNIVERSITY          #green
+TONGJI_UNIVERSITY          -up-> SAIC_Volkswagen_company    #blue
+SAIC_Volkswagen_company    -up-> ANJINAVI_company           #blue
+ANJINAVI_company           -up-> Phoenix_Automotive_company #blue
+Phoenix_Automotive_company -up-> By_bit_company             #blue
+By_bit_company             -up-> [*]
+
+JIANGSU_UNIVERSITY         : Bachelor
+JIANGSU_UNIVERSITY         : School of Automotive and Transportation Engineering
+JIANGSU_UNIVERSITY         : **Excellent in mathematics**, basic courses of engineering
+
+TONGJI_UNIVERSITY          : master
+TONGJI_UNIVERSITY          : Automotive College
+TONGJI_UNIVERSITY          : **Excellence in mathematical**, computer control basics, Automobile testing, modern control theory, system identification, fuzzy control
+
+SAIC_Volkswagen_company    : engineer
+SAIC_Volkswagen_company    : Instrument Driving Assistance, Reporting to: Technical Director
+SAIC_Volkswagen_company    : Responsible for building the Volkswagen MQB platform instrument test system and HUD test system, and developing test cases.  
+
+ANJINAVI_company           : senior test develop engineer
+ANJINAVI_company           : research and development department, Reporting to: Technical Director
+ANJINAVI_company           : Responsible for building a navigation test system and test navigation map.  
+
+Phoenix_Automotive_company : senior test develop engineer
+Phoenix_Automotive_company : research and development department, Reporting to: Technical Director
+Phoenix_Automotive_company : building test frameworks, develop android testing APP
+
+By_bit_company             : senior test develop engineer
+By_bit_company             : big data department, Reporting to: department Director
+By_bit_company             : base on chat GPT to develop a crypto finance analyst chat tool, developing off-line data analyse system(base on spark) Automotive Testing system.
+
+right header
+**DC**
+endheader
+legend bottom left
+| <color:green>→</color> | university |
+| <color:blue>→</color> | company |
+endlegend
+right footer DC
+@enduml
